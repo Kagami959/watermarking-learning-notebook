@@ -1,0 +1,274 @@
+{
+  "config": {
+    "data_root": "D:\\C\\Python\\backdoor\\LJSpeech-1.1",
+    "output_dir": "D:\\C\\Python\\backdoor\\audiosealexp\\table3_results",
+    "sample_rate": 16000,
+    "max_duration": 10.0,
+    "num_samples": 100,
+    "watermark_bits": 16,
+    "device": "cpu"
+  },
+  "results": {
+    "none": {
+      "accuracy": 0.9999999999995001,
+      "tpr": 0.999999999999,
+      "fpr": 0.0,
+      "auc": 1.0,
+      "best_threshold": 0.03,
+      "wm_scores_mean": 0.9996248143911362,
+      "wm_scores_std": 0.0018234622269435678,
+      "orig_scores_mean": 0.004045265059867234,
+      "orig_scores_std": 0.003941114002492913,
+      "n_samples": 100,
+      "time_seconds": 262.6511061191559,
+      "quality": {
+        "si_snr_mean": 27.714710513205706,
+        "si_snr_std": 1.3919160182772496
+      }
+    },
+    "bandpass": {
+      "accuracy": 0.9999999999995001,
+      "tpr": 0.999999999999,
+      "fpr": 0.0,
+      "auc": 1.0,
+      "best_threshold": 0.02,
+      "wm_scores_mean": 0.9995529800653458,
+      "wm_scores_std": 0.002287171018263046,
+      "orig_scores_mean": 0.001082464515220636,
+      "orig_scores_std": 0.0024765577591418725,
+      "n_samples": 100,
+      "time_seconds": 176.3416359424591,
+      "quality": {
+        "si_snr_mean": 8.317844689325627,
+        "si_snr_std": 1.7113686188465977
+      }
+    },
+    "highpass": {
+      "accuracy": 0.509999999999745,
+      "tpr": 0.78999999999921,
+      "fpr": 0.76999999999923,
+      "auc": 0.5006999999999999,
+      "best_threshold": 0.02,
+      "wm_scores_mean": 0.0794244170965976,
+      "wm_scores_std": 0.06286146852037072,
+      "orig_scores_mean": 0.07979874702890812,
+      "orig_scores_std": 0.06308154493984047,
+      "n_samples": 100,
+      "time_seconds": 176.4880359172821,
+      "quality": {
+        "si_snr_mean": -10.723538073783452,
+        "si_snr_std": 2.5746324838425556
+      }
+    },
+    "lowpass": {
+      "accuracy": 0.9999999999995001,
+      "tpr": 0.999999999999,
+      "fpr": 0.0,
+      "auc": 1.0,
+      "best_threshold": 0.13,
+      "wm_scores_mean": 0.9528705042600631,
+      "wm_scores_std": 0.06339245211978567,
+      "orig_scores_mean": 0.006064907534964732,
+      "orig_scores_std": 0.015136486240614953,
+      "n_samples": 100,
+      "time_seconds": 176.19599080085754,
+      "quality": {
+        "si_snr_mean": 7.804361859721637,
+        "si_snr_std": 1.7595420226909797
+      }
+    },
+    "boost": {
+      "accuracy": 0.9999999999995001,
+      "tpr": 0.999999999999,
+      "fpr": 0.0,
+      "auc": 1.0,
+      "best_threshold": 0.06999999999999999,
+      "wm_scores_mean": 0.9996147638559342,
+      "wm_scores_std": 0.0021936183477422374,
+      "orig_scores_mean": 0.00818004808614205,
+      "orig_scores_std": 0.0087293902967366,
+      "n_samples": 100,
+      "time_seconds": 175.74726724624634,
+      "quality": {
+        "si_snr_mean": 24.90598729889151,
+        "si_snr_std": 2.6608781058484965
+      }
+    },
+    "duck": {
+      "accuracy": 0.9999999999995001,
+      "tpr": 0.999999999999,
+      "fpr": 0.0,
+      "auc": 1.0,
+      "best_threshold": 0.02,
+      "wm_scores_mean": 0.9442277216911316,
+      "wm_scores_std": 0.03953507694377726,
+      "orig_scores_mean": 0.0043037214276773735,
+      "orig_scores_std": 0.004093661943716065,
+      "n_samples": 100,
+      "time_seconds": 178.4287724494934,
+      "quality": {
+        "si_snr_mean": 27.73407936064832,
+        "si_snr_std": 1.4741606037205097
+      }
+    },
+    "echo": {
+      "accuracy": 0.9999999999995001,
+      "tpr": 0.999999999999,
+      "fpr": 0.0,
+      "auc": 1.0,
+      "best_threshold": 0.09,
+      "wm_scores_mean": 0.9938646554946899,
+      "wm_scores_std": 0.009421084884490564,
+      "orig_scores_mean": 0.009637608949415153,
+      "orig_scores_std": 0.011098280270455842,
+      "n_samples": 100,
+      "time_seconds": 176.3005564212799,
+      "quality": {
+        "si_snr_mean": 6.005979978809442,
+        "si_snr_std": 0.055987264666678166
+      }
+    },
+    "pink": {
+      "accuracy": 0.9999999999995001,
+      "tpr": 0.999999999999,
+      "fpr": 0.0,
+      "auc": 1.0,
+      "best_threshold": 0.04,
+      "wm_scores_mean": 0.5650661373138428,
+      "wm_scores_std": 0.08549350836350732,
+      "orig_scores_mean": 0.006246854869532399,
+      "orig_scores_std": 0.004537154431665743,
+      "n_samples": 100,
+      "time_seconds": 184.5573992729187,
+      "quality": {
+        "si_snr_mean": 19.31870342981413,
+        "si_snr_std": 0.22900349816049373
+      }
+    },
+    "white": {
+      "accuracy": 0.9999999999995001,
+      "tpr": 0.999999999999,
+      "fpr": 0.0,
+      "auc": 1.0,
+      "best_threshold": 0.04,
+      "wm_scores_mean": 0.48864211767911914,
+      "wm_scores_std": 0.08997848061797148,
+      "orig_scores_mean": 0.0044172254808654545,
+      "orig_scores_std": 0.0042579657223507155,
+      "n_samples": 100,
+      "time_seconds": 176.79750442504883,
+      "quality": {
+        "si_snr_mean": 19.286549392677657,
+        "si_snr_std": 0.21859030851395542
+      }
+    },
+    "fast_1.25x": {
+      "accuracy": 0.5049999999997475,
+      "tpr": 0.00999999999999,
+      "fpr": 0.0,
+      "auc": 0.4807,
+      "best_threshold": 0.02,
+      "wm_scores_mean": 0.0044244057593459726,
+      "wm_scores_std": 0.0034914897749179974,
+      "orig_scores_mean": 0.004859014225221472,
+      "orig_scores_std": 0.0038509161766333974,
+      "n_samples": 100,
+      "time_seconds": 179.24068665504456,
+      "quality": {
+        "si_snr_mean": -48.529133249806364,
+        "si_snr_std": 12.1853550912863
+      }
+    },
+    "smooth": {
+      "accuracy": 0.9999999999995001,
+      "tpr": 0.999999999999,
+      "fpr": 0.0,
+      "auc": 1.0,
+      "best_threshold": 0.13,
+      "wm_scores_mean": 0.9999136829376221,
+      "wm_scores_std": 0.0002159607471792162,
+      "orig_scores_mean": 0.004073426689537882,
+      "orig_scores_std": 0.012017314733683322,
+      "n_samples": 100,
+      "time_seconds": 176.4374713897705,
+      "quality": {
+        "si_snr_mean": 10.139785411326478,
+        "si_snr_std": 2.121767097261009
+      }
+    },
+    "resample": {
+      "accuracy": 0.9999999999995001,
+      "tpr": 0.999999999999,
+      "fpr": 0.0,
+      "auc": 1.0,
+      "best_threshold": 0.03,
+      "wm_scores_mean": 0.9995508289337158,
+      "wm_scores_std": 0.002396877274500958,
+      "orig_scores_mean": 0.0031387766743137036,
+      "orig_scores_std": 0.003852720596131979,
+      "n_samples": 100,
+      "time_seconds": 180.95750045776367,
+      "quality": {
+        "si_snr_mean": 11.56922634940285,
+        "si_snr_std": 2.9413220844046917
+      }
+    },
+    "aac": {
+      "accuracy": 0.9999999999995001,
+      "tpr": 0.999999999999,
+      "fpr": 0.0,
+      "auc": 1.0,
+      "best_threshold": 0.02,
+      "wm_scores_mean": 0.8230048704147339,
+      "wm_scores_std": 0.07145016999003438,
+      "orig_scores_mean": 0.0038837817354215078,
+      "orig_scores_std": 0.003067806825156704,
+      "n_samples": 100,
+      "time_seconds": 177.33731770515442,
+      "quality": {
+        "si_snr_mean": 13.367447878322759,
+        "si_snr_std": 3.3147659490200545
+      }
+    },
+    "mp3": {
+      "accuracy": 0.9999999999995001,
+      "tpr": 0.999999999999,
+      "fpr": 0.0,
+      "auc": 1.0,
+      "best_threshold": 0.03,
+      "wm_scores_mean": 0.6830374076962471,
+      "wm_scores_std": 0.08162617582613431,
+      "orig_scores_mean": 0.004152518464361492,
+      "orig_scores_std": 0.003637618303711034,
+      "n_samples": 100,
+      "time_seconds": 177.19103074073792,
+      "quality": {
+        "si_snr_mean": 11.447701719305973,
+        "si_snr_std": 2.826882924904783
+      }
+    },
+    "encodec": {
+      "accuracy": 0.9999999999995001,
+      "tpr": 0.999999999999,
+      "fpr": 0.0,
+      "auc": 1.0,
+      "best_threshold": 0.02,
+      "wm_scores_mean": 0.9378343039751053,
+      "wm_scores_std": 0.04517022977795316,
+      "orig_scores_mean": 0.0038977226108545438,
+      "orig_scores_std": 0.002813387573960237,
+      "n_samples": 100,
+      "time_seconds": 176.94282865524292,
+      "quality": {
+        "si_snr_mean": 26.976407497352312,
+        "si_snr_std": 1.2092920885696563
+      }
+    },
+    "average": {
+      "accuracy": 0.9343333333328664,
+      "tpr": 0.9199999999990799,
+      "fpr": 0.051333333333282,
+      "auc": 0.9320933333333333
+    }
+  }
+}
