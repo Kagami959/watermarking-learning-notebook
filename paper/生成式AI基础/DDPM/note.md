@@ -25,3 +25,5 @@
 - **关联文献**: [[LDM]], [[PAI]], [[TreeRing_Watermarks2023]]
 - **代码/数据链接**: https://github.com/hojonathanho/diffusion
 - **复现笔记**: （后续补充：环境、踩坑、调参、结果截图）
+- **学习资源**:
+  - [The Annotated Diffusion Model (HuggingFace)](https://huggingface.co/blog/annotated-diffusion) — DDPM 逐行代码讲解，带图解

@@ -61,6 +61,12 @@ A curated list of deep learning-based watermarking papers for audio and image, w
 
 ### Foundational
 
+#### Diffusion Model Learning Resources
+
+| Resource | Description |
+|:---------|:------------|
+| [The Annotated Diffusion Model](https://huggingface.co/blog/annotated-diffusion) | DDPM 逐行代码讲解（HuggingFace 博客） |
+
 | Title | Venue | Date | Code | Note | Supplement |
 |:------|:-----:|:----:|:----:|:----:|:----------:|
 | [HiDDeN: Hiding Data with Deep Networks](https://arxiv.org/abs/1807.09937) | ECCV 2018 | 2018-07 | [![Star](https://img.shields.io/github/stars/jirenz/HiDDeN.svg?style=social&label=Star)](https://github.com/jirenz/HiDDeN) | - | - |
