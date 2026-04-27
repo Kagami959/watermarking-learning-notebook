@@ -45,6 +45,7 @@ A curated list of deep learning-based watermarking papers for audio and image, w
 | [DeAR: A Deep-Learning-Based Audio Re-recording Resilient Watermarking](https://ojs.aaai.org/index.php/AAAI/article/view/26550) | AAAI 2023 | 2023-02 | - | - | - |
 | [AudioQR: Deep Neural Audio Watermarks for QR Code](https://www.ijcai.org/proceedings/2023/0687.pdf) | IJCAI 2023 | 2023 | [![Star](https://img.shields.io/github/stars/xinghua-qu/AudioQR.svg?style=social&label=Star)](https://github.com/xinghua-qu/AudioQR) | - | - |
 | [Neural Audio Watermarking](https://arxiv.org/abs/2401.17890) | arXiv | 2024 | - | [Note](paper/深度学习音频水印/NeuralAudioWatermarking_2024/note.md) | - |
+| [E2E-VGuard: Adversarial Prevention for Production LLM-based End-To-End Speech Synthesis](https://arxiv.org/abs/2511.07099) | NeurIPS 2025 | 2025 | - | - | [![Paper](https://img.shields.io/badge/PDF-red.svg)](paper/深度学习音频水印/E2E-VGuard2025/paper.pdf) |
 
 ### Image Watermarking
 
@@ -90,6 +91,7 @@ A curated list of deep learning-based watermarking papers for audio and image, w
 | Title | Venue | Date | Code | Note | Supplement |
 |:------|:-----:|:----:|:----:|:----:|:----------:|
 | [User Inference Attacks on Large Language Models](https://arxiv.org/abs/2310.09266) | EMNLP 2024 | 2024-11 | - | - | [![Paper](https://img.shields.io/badge/PDF-red.svg)](paper/LLM水印/Kandpal2024_UserInference/paper.pdf) |
+| [On the Effectiveness of Membership Inference in Targeted Data Extraction from Large Language Models](https://arxiv.org/abs/2512.13352) | SaTML 2026 | 2025-12 | - | - | [![Paper](https://img.shields.io/badge/PDF-red.svg)](paper/LLM水印/AlSahili2025_MembershipInference/paper.pdf) |
 | [A Watermark for Large Language Models](https://arxiv.org/abs/2301.10226) | ICML 2023 | 2023-01 | [![Star](https://img.shields.io/github/stars/jwkirchenbauer/lm-watermarking.svg?style=social&label=Star)](https://github.com/jwkirchenbauer/lm-watermarking) | [Note](paper/LLM水印/Kirchenbauer2023_LLM_Watermark/note.md) | - |
 | [Adaptive Text Watermark](https://arxiv.org/abs/2312.02249) | arXiv | 2024 | - | [Note](paper/LLM水印/Lai2024_Adaptive_Text_Watermark/note.md) | - |
 | [On the Reliability of Watermarks for Large Language Models](https://arxiv.org/abs/2306.04634) | ICLR 2024 | 2024 | - | [Note](paper/LLM水印/Reliability_LLM_Watermarks/note.md) | - |
