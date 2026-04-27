@@ -22,3 +22,6 @@ build/
 .env
 venv/
 .venv/
+
+# Papers (reference by URL only, no local PDFs)
+*.pdf
